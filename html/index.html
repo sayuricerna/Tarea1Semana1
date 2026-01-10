@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina personaliza</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a class="navbar-brand">Sayuri Cerna</a>
+                <ul class="nav justify-content-end">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">Sobre mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HERO -->
+        <section id="#" class="section hero-container">
+            <div class="hero-container-content">
+                <h1>Bienvenido a mi página web personal</h1>
+                <p>Página web creada con HTML, CSS y Bootstrap</p>
+                <button class="main-button"><a href="#projects">Ver proyectos</a></button>
+                <button class="secondary-button">Contacto</button>
+            </div>
+        </section>
+        <!-- SOBRE MI -->
+        <section id="aboutme" class="section aboutme-container">
+            <div class="aboutme-container-content">
+                <h2>Sobre mí</h2>
+                <p>Mi nombre es Sayuri Cerna , estudiante de Ingenieria de Software en la universidad Uniandes cursando sexto nivel.</p>    
+            </div>
+            <div class="aboutme-img">
+                <img src="sayuricerna.jpg" alt="sayuricerna">    
+            </div>
+            
+        </section>
+        <!-- HABILIDADES -->
+        <section id="skills" class="section">
+            <h2 class="section-title text-center mb-5">Habilidades</h2>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Frameworks</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">React</li>
+                                <li class="list-group-item">Bootstrap</li>
+                                <li class="list-group-item">Tailwind CSS</li>
+                                <li class="list-group-item">Laravel</li>
+                                <li class="list-group-item">Vite</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Lenguajes de programación</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">JavaScript</li>
+                                <li class="list-group-item">Python</li>
+                                <li class="list-group-item">Java</li>
+                                <li class="list-group-item">C#</li>
+                                <li class="list-group-item">PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Herramientas</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Git</li>
+                                <li class="list-group-item">GitHub</li>
+                                <li class="list-group-item">VS Code</li>
+                                <li class="list-group-item">MySQLWorkbench</li>
+                                <li class="list-group-item">Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- PROYECTOS -->
+        <section id="projects" class="section">
+            <h2 class="section-title text-center mb-5">Proyectos</h2>
+            <div class="card mb-3" style="max-width: 85%;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="proyecto.png" class="img-fluid rounded-start" alt="imagen proyecto calculadora">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">Calculadora</h2>
+                            <p class="card-text">Calculadora básica</p>
+                            <p class="card-text"><small class="text-body-secondary">Tarea Semana 1</small></p>
+                            <button class="main-button"><a href="../php/calculadora.php">Ver proyecto</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+    
+
+        <footer>
+            <p> &copy; 2024 Sayuri Cerna. Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>

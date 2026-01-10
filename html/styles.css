@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section {
+    padding: 4rem 6rem;
+    background-color: #f4f4f4;
+    margin-bottom: 2rem;
+}
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #092639;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: .3rem 2rem;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar a:hover {
+    font-weight: bold;
+    color: #fff;    
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 0.5rem;
+}
+.hero-container {
+    text-align: center;
+    height: 100vh;
+    background-color: #092639;
+    color: #fff;
+}
+.hero-container-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-container-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-container-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.aboutme-container{
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    height: 60vh;
+}
+.aboutme-container-content {
+    max-width: 600px;
+}
+.aboutme-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.aboutme-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #092639;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+}
+.main-button {
+    background-color: #cc972e;
+    color: #fff;
+    border: 2px solid #cc972e ;
+}
+.main-button:hover {
+    background-color: #b8860b;
+    border: 2px solid #b8860b;
+    font-weight: bold;
+}
+.secondary-button{
+    background-color: #33333300;
+    color: #fff;
+    border: 2px solid #cc972e ;
+}
+.secondary-button:hover {
+    background-color: #d4aa56;
+    color: #fff;
+}
+.main-button a, .secondary-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .aboutme-container {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+    .main-button {
+        margin-bottom: .6rem;
+        
+    }
+    button{
+        width: 100%;
+    }
+}
